@@ -1,0 +1,542 @@
+.top {
+    width: 100%;
+    height: 29px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    /*margin-bottom: 113px;*/
+}
+
+.top-in {
+    height: 29px;
+}
+
+.shouye {
+    background-position: 0 8px;
+    display: inline-block;
+    width: 75px;
+    height: 29px;
+    line-height: 29px;
+    text-indent: 16px;
+    float: left;
+}
+
+.songzhi {
+    height: 29px;
+    line-height: 29px;
+    float: left;
+}
+
+.didian {
+    height: 28px;
+    position: relative;
+    float: left;
+}
+
+.chongqing {
+    position: relative;
+    line-height: 28px;
+    float: left;
+}
+
+#zz {
+    padding: 0px 4px 0px 5px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+}
+
+.dizhi {
+    width: 400px;
+    display: inline-block;
+    padding: 5px 5px 15px 5px;
+    position: relative;
+    margin-left: -40px;
+    height: 296px;
+    position: relative;
+    top: 28px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    display: none;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.dizhi ul {
+    width: 400px;
+    height: 27px;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    top: 8px;
+    left: 0;
+
+}
+
+.dizhi ul li {
+
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 12px;
+    color: #888;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    float: left;
+    background-color: #f6f6f6;
+    /*border-bottom: 0px solid #ddd;*/
+    margin-left: 4px;
+
+}
+
+.quanbu a:hover {
+    background-color: #fb6003;
+}
+
+.quanbu {
+    width: 410px;
+    position: absolute;
+    left: 0;
+    top: 52px;
+    display: none;
+}
+
+.quanbu a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 2px 10px;
+    line-height: 15px;
+
+}
+
+.quan {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin-left: 20px;
+}
+
+.quan span {
+    color: #999;
+    border-right: 1px dotted #e8e8e8;
+    padding-right: 3px;
+}
+
+.quan a {
+    padding: 2px 10px;
+    color: #666;
+
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+.top-in ul {
+    float: right;
+}
+
+.top-in li {
+    display: inline;
+    float: right;
+    padding: 0 5px;
+    height: 26px;
+    position: relative;
+    z-index: 120;
+    border: 1px solid #F5F5F5;
+    border-bottom: none;
+}
+
+.top-in li a {
+    line-height: 28px;
+}
+
+.top-in ul li #erwei {
+    width: 80px;
+    margin-top: 2px;
+    position: absolute;
+    right: -34px;
+    top: 28px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.top-in ul li .shoucang {
+    position: absolute;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    right: -1px;
+    top: 26px;
+    z-index: 110;
+    width: 160px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.top-in ul li .shoucang a {
+    background: #fff;
+    border: 1px solid #999;
+    color: #333;
+    width: 70px;
+    text-align: center;
+    padding: 0;
+    border-radius: 3px;
+    line-height: 28px;
+    display: inline-block;
+    padding-right: 5px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.top-in ul li .dan1 {
+
+    position: absolute;
+    padding: 5px 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    right: -1px;
+    top: 26px;
+    z-index: 110;
+    width: 120px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    display: none;
+    background-color: #fff;
+}
+
+.logo {
+    width: 100%;
+    padding-top: 13px;
+    height: 100px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+}
+
+.logo-in {
+    position: relative;
+
+}
+
+.e-logo img {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.search {
+    width: 609px;
+    float: right;
+    margin-top: 25px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+.search input, .search button {
+    height: 34px;
+    background-color: white;
+    outline: none;
+
+}
+
+.search input[type=text] {
+
+    border: #fa6176 solid 2px;
+    background: none;
+    padding: 0 5px 0 15px;
+    width: 382px;
+    height: 30px;
+    outline: none;
+    line-height: 30px;
+    font-size: 12px;
+    float: left;
+}
+
+.search button {
+    width: 73px;
+    height: 34px;
+    float: left;
+    border-left: 1px solid #fa6176;
+    border: none;
+    width: 73px;
+    height: 34px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #fa6176;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.search .gouwuche {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 18px 0 35px;
+    width: 70px;
+    float: right;
+    background-color: #fa6176;
+    color: #fff;
+    font-size: 14px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.ft20 {
+    font-size: 20px;
+}
+
+.c666 {
+    color: #666;
+}
+
+.c999 {
+    color: #999;
+}
+
+.ft12 {
+    font-size: 12px;
+}
+
+.c444 {
+    color: #444;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ft14 {
+    font-size: 14px;
+}
+
+.mt20 {
+
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.footer-top {
+    background: #f5f5f5;
+    position: relative;
+    padding-top: 20px;
+}
+
+.footer-body {
+    background: #f5f5f5;
+}
+
+
+
+.footer-phone img {
+    float: left;
+}
+
+.footer-phone-text {
+    margin-left: 30px;
+    float: left;
+}
+
+.footer-phone-text p {
+    margin-top: 15px;
+}
+
+.pay-way {
+    margin: 0 85px 0 40px;
+}
+
+.peisong-style {
+    margin-right: 85px;
+}
+
+.shopping-way {
+    margin-right: 85px;
+}
+
+.about-us {
+    margin-right: 85px;
+}
+
+.footer-information a:hover {
+    color: #fa6176;
+    text-decoration: underline;
+}
+
+.app-code {
+    margin-right: 36px;
+}
+
+.footer-information {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.app-code img {
+    margin-top: 10px;
+}
+
+.weixin-code img {
+    margin-top: 10px;
+}
+
+/* �������� */
+
+.flink {
+    padding-top: 25px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.brand-link a {
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    color: #999;
+}
+
+.brand-link a:hover {
+    color: #fa6176;
+    text-decoration: underline;
+}
+
+.support {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-copy {
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+
+.loutili {
+    width: 28px;
+    height: 250px;
+
+    position: fixed;
+    right: 26px;
+    top: 40%;
+    z-index: 999;
+    border: 1px dotted #fa6176;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 0;
+    display: none;
+
+}
+
+.loutili ul li {
+    width: 26px;
+    height: 48px;
+    background-color: #fff;
+    margin: 1px;
+    border-bottom: 1px dotted #fa6176;
+    line-height: 48px;
+    color: #fa6176;
+}
+
+.loutili ul li.lei1 {
+    background-color: #fa6176;
+    color: #fff
+}
+
+.zhuan1 {
+
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+
+    box-sizing: border-box;
+    position: relative;
+    transform-style: preserve-3d;
+    /*transform: rotateY(45deg) rotateX(45deg);*/
+    transition: all 2s;
+    float: left;
+    margin-right: 140px;
+}
+
+.zhuan1 li {
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+}
+
+.zhuan1 li img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.zhuan1 li:nth-child(1) {
+
+    transform: translateX(-30px) rotateX(270deg) rotateY(-90deg);
+
+}
+
+.zhuan1 li:nth-child(2) {
+    transform: translateX(30px) rotateY(-270deg) rotateX(180deg);
+}
+
+.zhuan1 li:nth-child(3) {
+    transform: translateY(-30px) rotateX(270deg) rotateY(-180deg);
+}
+
+.zhuan1 li:nth-child(4) {
+    transform: translateY(30px) rotateX(90deg) rotateY(-180deg);
+}
+
+.zhuan1 li:nth-child(5) {
+    transform: translateZ(-30px);
+}
+
+.zhuan1 li:nth-child(6) {
+    transform: translateZ(30px);
+}
+
+.wenzi {
+
+   height: 62px;;
+    position: relative;
+    float: left;
+    color: #444;
+    font-size: 18px;
+    margin-top: -30px;
+}
+.wenzi span {
+    width: 48px;
+    height: 56px;
+    position: relative;
+
+}
+
+
+
+
+
+
